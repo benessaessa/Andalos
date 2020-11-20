@@ -1,0 +1,31 @@
+header .topNew {
+    padding-top: 120px;
+    padding-bottom: 78px;
+}
+.navbar-dark .navbar-nav .nav-link:hover ,.navbar-dark .navbar-nav .nav-link.active {
+    color: #EA1D24;
+    border-bottom: 0.1rem solid #EA1D24;
+    padding: .3rem .7rem;
+}
+.textN{
+    font-size: 20px;
+}
+.newSection{
+    width: 100%;
+    height: auto;
+    background: url(../img/img.svg) no-repeat top center;
+    background-size: cover;
+    color: #ffffff;
+    overflow: hidden;
+}
+.newContainer{
+    background: rgb(255 255 255 / 0.9);
+}
+.needs{
+    height: auto;
+    background: url(../img/Capture.PNG) no-repeat top center;
+    background-size: cover;
+    min-height: 17rem;
+    color: #ffffff;
+    overflow: hidden;
+}
