@@ -71,6 +71,7 @@ header{
   overflow: hidden}
 header .tophead{padding-top:120px;padding-bottom:170px}
 header .title-main{font-size:2.4vw;font-weight:700;color:#ffffff}
+header .mainText{font-size: 3.4vw;}
 header .intro-text{font-size:.9em}
 .btn-lg{font-size:1.4rem;border-radius:8px;padding:10px 40px 10px 40px;}
 .btn-color{background:#EA1D24;color:#ffffff}

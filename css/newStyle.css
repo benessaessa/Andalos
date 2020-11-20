@@ -29,3 +29,66 @@ header .topNew {
     color: #ffffff;
     overflow: hidden;
 }
+.contactSection{
+    width: 100%;
+    height: auto;
+    background: url(../img/contactUs.svg) no-repeat top center;
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.sectionOverlay{
+    background: rgb(27 26 26 / 90%);
+}
+.formC input,.formC textarea{
+    background: unset;
+    color: white;
+    border: 1px solid;
+    padding-left: 1rem;
+}
+.btnSubmit{
+    background-color: #FFFFFF;
+    color: #EA1D24;
+    font-weight: 500;
+}
+.btnSubmit:hover{
+    opacity: 0.8;
+}
+.newCard{
+    box-shadow:0 2px 20px 0 rgba(175,145,100,0.2);
+    border-radius: 5px;
+}
+.newCard .media img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.newCard .media{
+    padding-top: 0.5rem;
+}
+@media screen and (min-width:1024px){
+    .newCard{
+        margin-left: -6rem;
+        margin-top: 3rem;
+    }
+}
+.socialIcons a i{
+    border: 1px solid;
+    padding: 0.5rem 0.6rem;
+    width: 50px;
+    margin-top: 0.2rem;
+    height: auto;
+    border-color: #CDB34F;
+    margin-right: 2rem;
+    border-radius: 50%;
+    color: #CDB34F;
+}
+.socialIcons a i:hover{
+    color: #EA1D24;
+}
+@media screen and (max-width:500px){
+    .socialIcons a i{
+        margin-right: 0.2rem;
+    }
+}
