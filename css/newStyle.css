@@ -47,6 +47,12 @@ header .topNew {
     border: 1px solid;
     padding-left: 1rem;
 }
+.formC input:focus{
+    background: unset;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+}
 .btnSubmit{
     background-color: #FFFFFF;
     color: #EA1D24;
