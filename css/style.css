@@ -75,6 +75,7 @@ header .mainText{font-size: 3.4vw;}
 header .intro-text{font-size:.9em}
 .btn-lg{font-size:1.4rem;border-radius:8px;padding:10px 40px 10px 40px;}
 .btn-color{background:#EA1D24;color:#ffffff}
+.btn-color:hover{background-color: white;color: #EA1D24;border: 1px solid #EA1D24;}
 .bg-img{background:url('../img/bg-img.jpg') no-repeat center center;background-size: cover;}
 .bg-color-opacity{background:rgba(0,0,0,0.5)}
 /*why us*/
@@ -102,7 +103,7 @@ header .intro-text{font-size:.9em}
 .gal-item{position: relative;}
 .gal-item img{background:rgba(204, 157, 157, 0.5);object-fit: cover;overflow:hidden;min-width:200px;max-width:506px;width:100%;cursor: pointer;}
 .gal-item:hover img{opacity:0.9;background:#EA1D24;}
-.gal-item:hover .gal-title{transform: translate(0px, -250px);transition:2s;background:rgba(0,0,0,0.5);}
+.gal-item:hover .gal-title{transition:2s;background:rgba(0,0,0,0.5);}
 .gal-title{color:#ffffff;font-size:1.5em;position:absolute;padding:10px 10px 0px 10px;left:25px;bottom:40px;font-weight:500}
 .gal-title:after{background:-webkit-linear-gradient(left,#EA1D24 58%,#707070 38%);  background:linear-gradient(45deg,#EA1D24 58%,#707070 38%);width:120px;height:3px;margin-top:3px;content:'';display:block}
 /*coupon*/
@@ -182,3 +183,6 @@ body{font-size:14px;font-weight:400}
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
  .fab,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-facebook-f:before{content:"\f39e"}.fa-twitter:before{content:"\f099"}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:swap;src:url(../webfonts/fa-brands-400.eot);src:url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.woff) format("woff"),url(../webfonts/fa-brands-400.ttf) format("truetype"),url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:400;font-display:swap;src:url(../webfonts/fa-regular-400.eot);src:url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.woff) format("woff"),url(../webfonts/fa-regular-400.ttf) format("truetype"),url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-weight:400}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:swap;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.woff) format("woff"),url(../webfonts/fa-solid-900.ttf) format("truetype"),url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")}.far,.fas{font-family:"Font Awesome 5 Free"}.fas{font-weight:900}
+ .shadow:hover{
+  box-shadow: 0 .5rem 1rem rgba(129, 124, 124, 0.15)!important;
+ }
