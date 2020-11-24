@@ -1,11 +1,22 @@
 .swiper-pagination-bullet {
-    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: white;
   }
   .swiper-slide{
     margin-right: 1.5rem;
+    width: 160px;
+    margin-bottom: 1.5rem;
   }
   .swiper-slide img{
-      height: 200px;
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+  }
+  @media screen and (max-width:500px){
+    .swiper-slide img{
+      height: 150px;
       width: 100%;
       object-fit: cover;
+  }
   }

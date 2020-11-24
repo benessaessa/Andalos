@@ -588,6 +588,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="package/js/swiper-bundle.min.js"></script>
+  <script src="js/file.js"></script>
   <script>
     $('.count').each(function () {
       $(this).prop('Counter', 0).animate({
@@ -599,42 +600,6 @@
           $(this).text(Math.ceil(now));
         }
       });
-    });
-  </script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      // slidesPerView: 3,
-    // spaceBetween: 15,
-    freeMode: true,
-    slidesPerView: 'auto',
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        },
-    breakpoints: {
-        // when window width is <= 499px
-        320: {
-            slidesPerView: 1,
-            spaceBetweenSlides: 20
-        },
-        700:{
-            slidesPerView: 2,
-            spaceBetweenSlides: 50
-        },
-        // when window width is <= 999px
-        999: {
-            slidesPerView: 3,
-            spaceBetweenSlides: 15
-        },
-        1200: {
-            slidesPerView: 5,
-            spaceBetweenSlides: 15
-        }
-    }
     });
   </script>
 </body>
