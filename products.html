@@ -122,8 +122,14 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="products.html">Products</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="products.html">Products</a>
+                <a class="dropdown-item" href="#">All Products</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutUs.html">About us</a>
@@ -154,16 +160,26 @@
     </div>
   </header>
   <div class="container my-5 px-sm-0">
-    <!-- <div class="row">
-      <div class="col-12">
-        <div class="float-left">
-          <h2 class="section-title">Latest products</h2> <span class="sup-title">ALWAYS DEDICATED AND DEVOTED</span>
+    <form action="#" class="formFilter">
+      <div class="row justify-content-between pb-4">
+        <div class="col-md-4">
+          <div class="form-group mb-2">
+            <input type="text" class="form-control-plaintext pl-2" placeholder="search" id="search">
+          </div>
         </div>
-        <div class="float-right">
-          <a href="#" class="btn btn-color hvr-bounce-to-right px-4">Explore</a>
+        <div class="col-md-4">
+          <select class="custom-select">
+            <option selected>Open this select menu to Filter</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-color btn-block">Filter</button>
         </div>
       </div>
-    </div> -->
+    </form>
     <div class="row">
       <div class="col-lg-4 col-sm-6 py-2 gal-item"><img src="img/img-1.jpg" alt=""><span class="gal-title">Electric
           motors</span></div>

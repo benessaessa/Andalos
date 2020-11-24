@@ -13,10 +13,26 @@
       width: 150px;
       object-fit: cover;
   }
-  @media screen and (max-width:500px){
+  .swiper-slide{
+    margin-right: 0rem;
+  }
+  .swiper-pagination2{
+    display: none;
+  }
+  .swiper-container2{
+    overflow: hidden;
+}
+.swiper-slide-next .overlayC{
+    background-color: rgba(218, 43, 12, 0.6);
+    border-radius: 5px;
+}
+@media screen and (max-width:500px){
     .swiper-slide img{
       height: 150px;
       width: 100%;
       object-fit: cover;
   }
+  .swiper-slide-active .overlayC{
+      background-color: rgba(218, 43, 12, 0.6);
   }
+}
