@@ -69,7 +69,9 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="package/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/newStyle.css">
+  <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -198,7 +200,6 @@
       <!-- end row -->
     </div><!-- end container -->
   </section>
-
   <div class="container px-sm-0">
     <div class="row pt-5 mt-5 mb-2">
       <div class="col-12">
@@ -543,20 +544,35 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="marquee mb-5">
-            <img src="img/TIGER.jpg" alt="" class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=""
-              class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=" " class="img-fluid mx-2" /><img
-              src="img/TIGER.jpg" alt=" " class="img-fluid mx-1" /><img src="img/TIGER.jpg" alt=" "
-              class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=" " class="img-fluid mx-2" /><img
-              src="img/TIGER.jpg" alt=" " class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=" "
-              class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=" " class="img-fluid mx-2" /><img
-              src="img/TIGER.jpg" alt=" " class="img-fluid mx-2" /><img src="img/TIGER.jpg" alt=" "
-              class="img-fluid mx-2" /></div>
+    <div class="swiper-container container pb-4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/banner.jpg" alt="">
         </div>
       </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
   </section>
 
@@ -571,6 +587,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="package/js/swiper-bundle.min.js"></script>
   <script>
     $('.count').each(function () {
       $(this).prop('Counter', 0).animate({
@@ -582,6 +599,42 @@
           $(this).text(Math.ceil(now));
         }
       });
+    });
+  </script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      // slidesPerView: 3,
+    // spaceBetween: 15,
+    freeMode: true,
+    slidesPerView: 'auto',
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    breakpoints: {
+        // when window width is <= 499px
+        320: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 20
+        },
+        700:{
+            slidesPerView: 2,
+            spaceBetweenSlides: 50
+        },
+        // when window width is <= 999px
+        999: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 15
+        },
+        1200: {
+            slidesPerView: 5,
+            spaceBetweenSlides: 15
+        }
+    }
     });
   </script>
 </body>
