@@ -3,7 +3,6 @@ var swiper = new Swiper('.swiper-container', {
 // spaceBetween: 15,
 freeMode: true,
 slidesPerView: 'auto',
-centeredSlides: true,
 pagination: {
     el: '.swiper-pagination',
     clickable: true,
