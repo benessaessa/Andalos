@@ -167,11 +167,15 @@
         <p class="textN"> consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
       </div>
       <div class="col-lg-4 bg-video text-center mb-5">
-        <a class="lightbox" href="#video" aria-label="video"><i class="far fa-play-circle video-play"></i></a>
-        <div class="lightbox-target" id="video"><iframe width="560" height="315" title="Video" class="printable"
-            src="https://www.youtube.com/embed/pBHwr6Rjvjg"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a class="lightbox-close" href="#contact" aria-label="coupon"></a>
+        <button class="lightbox" style="background-color: unset;border: none;" data-toggle="modal" data-target="#exampleModal"><i class="far fa-play-circle video-play"></i></button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog newModal modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pBHwr6Rjvjg"></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

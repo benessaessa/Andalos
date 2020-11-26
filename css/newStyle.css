@@ -108,3 +108,24 @@ header .container-fluid{
 .formFilter input{
     border: 1px solid rgb(190, 189, 189);
 }
+.newModal .modal-content{
+    background-color: unset;
+    border: none;
+}
+.formC{
+    padding-left: 8%;
+}
+@media screen and (max-width:990px){
+    .sectionOverlay .formC input,.sectionOverlay .formC textarea,.sectionOverlay .formC .btn{
+        width: 100% !important;
+    }
+    .formC{
+        padding-left:3rem;
+        padding-right: 3rem;
+    }
+}
+@media screen and (max-width:700px){
+    iframe{
+        width: 100%;
+    }
+}

@@ -355,11 +355,15 @@
         </div>
       </div>
       <div class="col-lg-4 bg-video text-center mb-5">
-        <a class="lightbox" href="#video" aria-label="video"><i class="far fa-play-circle video-play"></i></a>
-        <div class="lightbox-target" id="video"><iframe width="560" height="315" title="Video" class="printable"
-            src="https://www.youtube.com/embed/pBHwr6Rjvjg"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <a class="lightbox-close" href="#whyAndalos" aria-label="coupon"></a>
+        <button class="lightbox" style="background-color: unset;border: none;" data-toggle="modal" data-target="#exampleModal"><i class="far fa-play-circle video-play"></i></button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog newModal modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pBHwr6Rjvjg"></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
