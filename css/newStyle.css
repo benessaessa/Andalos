@@ -33,6 +33,10 @@ header .container-fluid{
     color: #ffffff;
     overflow: hidden;
 }
+.needs:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 .contactSection{
     width: 100%;
     height: auto;
