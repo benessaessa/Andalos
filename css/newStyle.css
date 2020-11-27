@@ -6,7 +6,7 @@ header .container-fluid{
     /* background: rgb(76 78 78 / 50%); */
     background: rgba(155,133,144,0.5);
 }
-.navbar-dark .navbar-nav .nav-link:hover ,.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link.active {
     color: #EA1D24;
     border-bottom: 0.1rem solid #EA1D24;
     padding: .3rem .7rem;

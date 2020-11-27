@@ -60,7 +60,7 @@ li.nav-item{padding:5px 0px 5px 35px;margin:0px;font-size:1.1em;font-weight:500;
 .navbar{padding:0px;margin-bottom:-50px;-webkit-transition:all 0.4s ease;-moz-transition:all 0.4s ease-in-out;transition:all 0.4s ease}
 .nav-link{font-size:1.1em;}
 .navbar-dark .navbar-nav .nav-link{color:#f8f9fa;padding:.4rem .7rem;}
-.navbar-dark .navbar-nav .nav-link:hover{color:#EA1D24;border-bottom:0.1rem solid #EA1D24;padding:.3rem .7rem;}
+.navbar-dark .navbar-nav .nav-link:hover{border-bottom:0.1rem solid #EA1D24;padding:.3rem .7rem;}
 /*header*/
 header{
   width: 100%;
@@ -142,7 +142,7 @@ a:active{color:#EA1D24;text-decoration: none;}
 @media (max-width:991.98px){header .tophead{padding-top:125px;padding-bottom:125px}
 header .title-main{font-size:4.1vw}
 .btn-lg{font-size:1.2rem;letter-spacing:1px}
-.navbar-dark .navbar-nav .nav-link:hover{color:#EA1D24;border-bottom:0;padding:.4rem .7rem;}
+.navbar-dark .navbar-nav .nav-link:hover{border-bottom:0;padding:.4rem .7rem;}
 .info {font-size:.7rem;font-weight:500}
 .bg-module-2{margin-top:0px;margin-bottom:0px;}
 .bg-video{padding:70% 0 70% 0}
