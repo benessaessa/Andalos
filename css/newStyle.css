@@ -11,6 +11,16 @@ header .container-fluid{
     border-bottom: 0.1rem solid #EA1D24;
     padding: .3rem .7rem;
 }
+header .dropdown-menu.show{
+    background-color: red;
+}
+header .dropdown-menu.show .dropdown-item{
+    color: white;
+}
+header .dropdown-menu.show .dropdown-item:hover{
+    color: red;
+    background-color: white;
+}
 .textN{
     font-size: 20px;
 }
@@ -101,16 +111,35 @@ header .container-fluid{
 .socialIcons a i:hover{
     color: #EA1D24;
 }
+.newCard h4{
+    text-align: center;
+}
 @media screen and (max-width:500px){
     .socialIcons a i{
         margin-right: 0.2rem;
+    }
+    .socialIcons{
+        padding-left: 0.5rem;
+        margin-right: auto;
+    }
+    .newCard h4{
+        text-align: left;
+        padding-left: 1rem;
+    }
+    header .dropdown-menu.show{
+        margin-right: 2rem;
     }
 }
 .socialFace{
     padding-left: 0.18rem;
 }
+.formFilter{
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
 .formFilter input{
     border: 1px solid rgb(190, 189, 189);
+    background-color: white;
 }
 .newModal .modal-content{
     background-color: unset;

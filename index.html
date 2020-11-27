@@ -139,10 +139,10 @@
             </li>
           </ul>
         </div>
-        <a href="#">
+        <a href="#" class="newSocial">
           <div class="social rounded-circle"><i class="fab socialFace fa-facebook-f"></i></div>
         </a>
-        <a href="#">
+        <a href="#" class="newSocial2">
           <div class="social rounded-circle"><i class="fab fa-twitter"></i></div>
         </a>
       </div>
@@ -597,28 +597,37 @@
     <div class="swiper-container container pb-4">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="img/banner.jpg" alt="">
+          <img src="img/TIGER.jpg" alt="">
         </div>
         <div class="swiper-slide">
           <img src="img/img-1.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="img/banner.jpg" alt="">
+          <img src="img/TIGER.jpg" alt="">
         </div>
         <div class="swiper-slide">
           <img src="img/img-1.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="img/banner.jpg" alt="">
+          <img src="img/TIGER.jpg" alt="">
         </div>
         <div class="swiper-slide">
           <img src="img/img-1.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="img/banner.jpg" alt="">
+          <img src="img/TIGER.jpg" alt="">
         </div>
         <div class="swiper-slide">
-          <img src="img/banner.jpg" alt="">
+          <img src="img/img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/TIGER.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/img-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/TIGER.jpg" alt="">
         </div>
       </div>
       <!-- Add Pagination -->
@@ -639,36 +648,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="package/js/swiper-bundle.min.js"></script>
   <script src="js/file.js"></script>
-  <script>
-    $(window).scroll(testScroll);
-      var viewed = false;
-
-      function isScrolledIntoView(elem) {
-          var docViewTop = $(window).scrollTop();
-          var docViewBottom = docViewTop + $(window).height();
-
-          var elemTop = $(elem).offset().top;
-          var elemBottom = elemTop + $(elem).height();
-
-          return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-      }
-      function testScroll() {
-      if (isScrolledIntoView($(".count")) && !viewed) {
-          viewed = true;
-          $('.count').each(function () {
-          $(this).prop('Counter',0).animate({
-              Counter: $(this).text()
-          }, {
-              duration: 4000,
-              easing: 'swing',
-              step: function (now) {
-                  $(this).text(Math.ceil(now));
-              }
-          });
-        });
-      }
-    }
-  </script>
 </body>
 
 </html>
